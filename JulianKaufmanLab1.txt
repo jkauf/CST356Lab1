@@ -1,0 +1,42 @@
+Julian Kaufman
+CST 356
+Lab 1
+
+Excercise 1
+1. //
+2. //
+3. 
+	public ActionResult About()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+4. //
+5. The navigation bar contains a request, in this case About. This program's controller contains a controller
+action named About. The controller action About routes to a corresponding view that executes the display logic,
+and the About page is displayed to the user.
+
+Exercise 2
+1. public ActionResult About()
+2. This lives in the .cshtml (About, in this case) files inside Views. 
+3. * It's in the project's Views folder
+4. Controller -> Model -> View
+5. //
+6. //
+7. //
+
+Excercise 3
+1. //
+2. //
+3. Error. No corresponding view exists for PersonController.
+4. //
+5. The corresponding view is generated
+6. //
+7. //
+8. My person data is displayed, but it is hardcoded into the view
+
+Excercise 4
+1. //
+2. //
